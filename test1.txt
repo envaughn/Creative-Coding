@@ -2,3 +2,5 @@ Name: Ellis Vaughn
 Date: 1/24/19
 
 This is my first text document for one of Dr. Musick's Media Arts courses.
+
+I added a new line to this file in my text editor!!!!
