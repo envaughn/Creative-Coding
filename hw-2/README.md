@@ -19,6 +19,4 @@ For this assignment I did the following:</p>
 
 5. This assignment is late so I didn't help anyone this time, but I intend to.
 
-![Markdown Screenshot](screenshot.png)
-
-![Markdown Screenshot 2](screenshot2.png)
+![Markdown Screenshot](screenshotfixed.png)
