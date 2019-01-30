@@ -6,13 +6,14 @@ For this assignment I did the following:</p>
 - I installed the correct CLI program
 - Created an account on Github
 - Installed Atom,
+- Installed the Github desktop,
 - Created my repo structure and synced it.
 
 ## 3. Did you have any problems or issues? How did you solve these? Did you post about these to the class repo issue tracker? Did you receive any useful feedback from your classmates?
 3. I'm unsure what type of HTML is expected or possible for this assignment specifically, but I was too late to ask.
 
 ## 4. Is there anything in particular you learned that you would like to discuss further?
-4. I assume we're going to get deeper into Markdown, which is what I'm most curious about at this point. I use Squarespace to design the webstie for [KBGA College Radio](kbga.org) and I'd like to have more tools outside of their website.
+4. I assume we're going to get deeper into Markdown, which is what I'm most curious about at this point. I use Squarespace to design the website for [KBGA College Radio](kbga.org) and I'd like to have more tools outside of their website.
 
 ## 5. What issues did you help your fellow classmates out with this past homework cycle?
 
