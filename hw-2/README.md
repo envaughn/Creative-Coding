@@ -2,7 +2,7 @@
 ## 1. Summarize the work you did this homework cycle. Paying particular attention to the individual choices you made.
   I installed all of the programs needed to sync and share my work with others in this course. I chose git bash, github desktop and atom because they were free. I didn't use the GUI often to create and move folders because I wanted to get more comfortable with using CLI.
 
-For this assignment I did the following:</p>
+For this assignment I did the following:
 - I installed the correct CLI program
 - Created an account on Github
 - Installed Atom,
@@ -19,4 +19,4 @@ For this assignment I did the following:</p>
 
 5. This assignment is late so I didn't help anyone this time, but I intend to.
 
-![Markdown Screenshot](screenshotfixed.png)
+![Markdown Screenshot](screenshotfinal.png)
