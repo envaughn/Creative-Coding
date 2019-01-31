@@ -4,10 +4,11 @@
 
 ### Summary
 This week was a good introduction to the tools that we're going to be using in this class. The concepts that I was least familiar with going in included
-- functions
-- beginning and ending lines in HTML
-- p5 in general
-- index files
+- Functions
+- Beginning and ending lines in HTML
+- Using p5 in general
+- Index files
+
 I can say that I'm a lot more comfortable with how these work in the context of Creative Coding.
 ### Steps
 I followed the instructions from Moodle and there weren't many options for me to deviate from them.
