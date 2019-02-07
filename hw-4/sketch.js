@@ -13,25 +13,33 @@ function draw() {
     fill('rgb(247, 134, 88)');
     arc(0, 0, 243, 450, 0, PI, CHORD);
   pop();
+
 //ears
       translate(300, 300)
       noStroke()                      //left ear
       fill('rgb(247, 134, 88)');
       triangle(-72, -182, -5, -182, -50, -255);
-
       noStroke()                      //right ear
       fill('rgb(247, 134, 88)');
       triangle(72, -182, 5, -182, 50, -255);
+//ear marks
+      stroke('white')
+      strokeWeight(1)
+      line(-50, -254, -40, -210)
+      line(49, -254, 40, -210)
+
 //ground
       noStroke();
       fill('rgb(18, 48, 35)');
       rect(-300, 115, 600, 125)
+
 //legs
       noStroke()
       fill('rgb(247, 134, 88)');
       rect (-60, 0, 38, 125);  //left leg
       rect (22, 0, 38, 125);  //right leg
     pop();
+
 //feets
   push();
     fill('rgb(247, 134, 88)');
@@ -41,15 +49,15 @@ function draw() {
     arc(45, -125, 60, 50, 0, PI); //left foot
     arc(-45, -125, 60, 50, 0, PI); //right foot
   pop();
+
 //feet marks
     stroke('white')
     line(-30, 124, -30, 115) //left marks
     line(-45, 124, -45, 115)
     line(-60, 124, -60, 115)
-    line(30, 124, 30, 115) //right marks
+    line(30, 124, 30, 115)  //right marks
     line(45, 124, 45, 115)
     line(60, 124, 60, 115)
-
 
 //paws
   push();
@@ -57,7 +65,7 @@ function draw() {
     stroke('white');
     strokeWeight(1);
     arc(-96, 0, 50, 70, 0, PI) //left paw
-    arc(96, 0, 50, 70, 0, PI)
+    arc(96, 0, 50, 70, 0, PI) //right paw
 //paw marks
     line(-86, 30, -87, 20)
     line(-96, 34, -97, 20)
@@ -65,7 +73,7 @@ function draw() {
     line(86, 30, 87, 20)
     line(96, 34, 97, 20)
     line(106, 31, 107, 20)
-    pop();
+  pop();
 
 //face
 //eyes
@@ -77,6 +85,10 @@ function draw() {
     ellipse(-40, -145, 10, 26)    //left pupil
     fill('rgb(19, 36, 97)');
     ellipse(40, -145, 10, 26)     //right pupil
+    fill('white')
+    ellipse(-45, -150, 7, 3)
+    ellipse(35, -150, 7, 3)
+
 
 //eyebrows
   push();
@@ -85,18 +97,24 @@ function draw() {
     triangle(60, -165, 35, -175, 22, -165)   //left eyebrow
 
 //mouth
-    stroke ('rgb(115, 70, 38)');
-    strokeWeight(2)
-    line(-30, -105, 30, -105)
     noStroke()
     fill('rgb(179, 64, 47)');
-    arc(0, -105, 25, 40, 0, PI)
-
-//ear marks
-    stroke('white')
+    arc(0, -105, 25, 40, 0, PI)        //tongue
+    stroke ('rgb(115, 70, 38)');
+    strokeWeight(2)
+    line(-29, -105, 29, -105)       //mouth
+    line(-28, -107, -32, -102)
+    line(28, -107, 32, -102)
     strokeWeight(1)
-    line(-50, -254, -40, -210)
-    line(50, -254, 40, -210)
+    line(0, -103, 0, -86);
+//spots
+    noStroke();
+    fill('rgba(255, 255, 255, 0.75)')
+    ellipse(60, -110, 14)
+    fill('rgba(255, 255, 255, 0.5)')
+    ellipse(79, -110, 10)
+    fill(255, 255, 255)
+    ellipse(70, -93, 7)
 
 
   }
