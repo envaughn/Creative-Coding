@@ -27,4 +27,4 @@ In terms of features I'm curious about, I want to explore using gradients in p5 
 I know that everyone has a different workflow but there were some additions in the examples/early submissions that didn't make sense to me. I wasn't too worried about it this time because I still made the little guy and my code is organized, but I'll just keep comparing them as we go.
 
 ### Monster Drafts (Bonus)
-! [Litte Guy Drafts] (littleguydrafts.jpg)
+![Little Guy Drafts](littleguydrafts.jpg)
