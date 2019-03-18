@@ -1,7 +1,7 @@
 ## Ellis Vaughn
 ### Week Summary
 1. For this assignment I was introduced to animation and the importance of variables in p5.
-2. I ended up watching a lot of The Coding Train videos
+2. I ended up watching a lot of The Coding Train videos to supplement the lesson.
 3. Made a draft in Photoshop so I could understand what I wanted things to look like, but I deviated from it quite a lot.
 4. This project has the painting, which has 3 ellipses controlled by mouse input, background color changes, and the train moving on it's own, made up of 7 rectangles that moves at the same rate behind the wall.
 
@@ -27,5 +27,5 @@ I mentioned before my issue with the window reflections, I was able to translate
 ### Further Discussion & Peers
 This was a very exciting assignment! Recently I've been looking at PC games from the 90's that were essentially "just" animated environments and an accompanying story, I've been wanting to do something web-based for the fiction I write. This felt like a really good step in the right direction!
 
-### Monster Drafts (Bonus)
-![Scenedraft](hwdraft.png)
+### Drafts (Bonus)
+![Scene draft](hwdraft.png)
