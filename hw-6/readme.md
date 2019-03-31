@@ -2,7 +2,7 @@
 ## Ellis Vaughn
 
 ### Week Summary
-1. I tested a lot of different functions to better visualize their effect. I misunderstood which functions we should choose, and picked Noise although it wasn't on the list, and couldn't find a use for another one once I realized my mistake. 
+1. I tested a lot of different functions to better visualize their effect. I misunderstood which functions we should choose and picked Noise although it wasn't on the list, and then couldn't find a use for another one once I realized my mistake, so I used it twice. 
 2. Made the triangle animation first, by modifying a the rotate function to include noise.
 3. From the beginning wanted this animation to be "infinite" so I made an array of colors that included the background blue, to give the effect of clearing the canvas. The random() function selects the preset colors.
 4. I experimented with a few fills and mouseX/mouseY modifications for the centered circle, but eventually preferred the noFill, with just a small boost to mouse input
