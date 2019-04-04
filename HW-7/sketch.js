@@ -20,7 +20,6 @@ function setup() {
     noiseDetail(5, 1)
 }
 
-
 function draw() {
 
     ball.x += ball.delta_x * ball.scale_x;

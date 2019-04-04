@@ -1,6 +1,6 @@
-Your Name, Your Section Number
+## Ellis Vaughn
 
-[Live Sketch Link](Your Live Link)
+[Live Sketch Link](https://envaughn.github.io/Creative-Coding/HW-7/)
 
 
 # HW 7 | Describe then Alter the Bouncing Ball
@@ -25,7 +25,7 @@ LINE 39: When the mouse is pressed, the ball.scale variable is changed in relati
 
 ## How did you alter the sketch?
 
-First, I removed the stroke from the ellipse. Then I added size and color as changing factors in the sketch, by doing the following: I defined variables for color and initially set them to white. I added the "if" condition mouseIsPressed, and then set the color variables to choose from random values between 0 and 255. In the same statement I also used the noise function to change the width of the circle. I used modulo to keep the circle from taking over the entire screen, and by returning all the way back to 0 it allowed for a lot of variation. 
+First, I removed the stroke from the ellipse. Then I added size and color as changing factors in the sketch, by doing the following: I defined variables for color and initially set them to white. I added the "if" condition mouseIsPressed, and then set the color variables to choose from random values between 0 and 255. In the same statement I also used the noise function to change the width of the circle. I used modulo to keep the circle from taking over the entire screen, and by returning all the way back to 0 it allowed for a lot of variation.
 In addition to the mouseIsPressed, the circle also randomly changes width to a smaller circle every time it hits the edges of the canvas, I amended this to the other movement rules.
 
 <!--
