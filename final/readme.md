@@ -15,7 +15,7 @@
 ### Process
 
 I realized very quickly that I was in over my head with this one, but it was some of the most fun I've had on a project. I plan on finishing it over the summer.
-This is based off of a short story that I've had an outline for since a few years ago, and science fiction seemed like a good match for this style. I used the 3D modeling tool Sketchup to create a base for the room, that I added color/effects to in a couple Adobe programs.
+This is based off of a short story that I've had an outline for since a few years ago, and science fiction seemed like a good match for this style. I used the 3D modeling tool Sketchup to create a base for the room (the only premade asset I used was the chair), that I added color/effects to in a couple Adobe programs.
 I chose .gifs because of their file size, but I think I'll use .pngs for at least the images. I genuinely like the almost half-tone look of gif compression for the background, however.
 
 ### Issues
