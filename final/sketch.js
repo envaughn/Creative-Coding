@@ -7,54 +7,58 @@ let ctxt = [];
 
 //values for the text box, declared here so it could move while I was testing.
 let tB = {};
-tB.x = 660;
-tB.y = 453;
-tB.w = 249;
-tB.h = 270;
-
+  tB.x = 540;
+  tB.y = 320;
+  tB.w = 249;
+  tB.h = 270;
+let thex = {};
+  thex.x = 652;
+  thex.y = 540;
+  thex.w = 25;
+  thex.h = 25;
 
 function preload() {
 bg = loadImage('stuff/bg/newtestbg.gif');
 theText = 2
 //preloading the text and images
 //the text was going to be strings
-
+tBox = loadImage('stuff/bg/tBox.gif')
   for (let i = 0; i < 3; i++) {
     pics[i] = loadImage(`stuff/obj/item`+ i +`.gif`);
     for (let o = 0; o < 3; o++) {
       ctxt[o] = loadImage(`stuff/text/txt`+ o +`.gif`)
     }
-  }
-  }
+}
+
+  xout = loadImage('stuff/bg/thex.gif')
+}
 
 
 
 function setup() {
-
 var x, y, c, w, h, px, py, textOn;
 
-background(bg)
+createCanvas(800, 600);
 textAlign(CENTER, TOP)
 rectMode(CENTER)
-textSize(15);
-  createCanvas(800, 600);
-  background(bg);
+textSize(15)
 //The interactive items, a for loop wasn't possible here because of the locations being fed to the constructor.
    items[0] = new Item(400, 100, 502, 0, 200);
    items[1] = new Item(380, 340, 32, 1);
    items[2] = new Item(330, 365, 250, 2);
-
-
 //The last value is how I decided to tie the image to the Item class, so
 // item[1] corresponds to pics[1]
-
 livRoom = true
+
 
 }
 
 function draw() {
-    noStroke();
+
+background(bg)
+noStroke();
 advance();
+
 
 }
 
@@ -73,8 +77,9 @@ function advance() {
 
   if (textOn) {
   for (let o = 0; o < 3; o++)  {
-        items[o].txtShow(theText);
+        items[o].txtShow(theTxt);
   }
+
 } else {
     console.log('texton null')
 
@@ -88,7 +93,7 @@ function advance() {
     function mousePressed() {
      for (let allitems of items) {
         allitems.textEv(mouseX, mouseY);
-//allows text to show
+//allows text to
 
 }
     }
@@ -109,20 +114,30 @@ class Item {
 
 }
 txtShow (t) {
+  t = this.c
+  push();
   if (textOn) {
-  image(ctxt[t], tB.x - (tB.x/4), tB.y - (tB.y/4), tB.w, tB.h);
+      image(tBox, tB.x, tB.y, tB.w, tB.h)
+  image(ctxt[t], tB.x, tB.y, tB.w, tB.h);
+  image(xout, thex.x, thex.y, thex.w, thex.h);
+
+
 }
 }
 
 textEv (px, py) {
-if (px > this.x && px < this.x + this.w && py > this.y && py < this.y + this.h) {
-console.log('itemclick' + this.c)
-textOn = true;
+theText = this.c
+  if (px > this.x && px < this.x + this.w && py > this.y && py < this.y + this.h) {
+  console.log('itemclick' + this.c)
+  //^^^ this is the point where it works, when you click on the item it gives the right c value
+    textOn = true;
+  } else {
+  }
 
-//^^^ this is the point where it works, when you click on the item it gives the right c value.
-
-
+  if (px > thex.x && px < thex.x + thex.w && py > thex.y && py < thex.y + thex.h) {
+    textOn = false;
 }
+
 }
 
 }
